@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_tech_stacks",
+  "info": {
+    "displayName": "stack",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

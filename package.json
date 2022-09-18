@@ -1,0 +1,57 @@
+{
+  "name": "strapi-contribute",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Contribute to Strapi plugins easily",
+  "workspaces": [
+    "./src/plugins/*"
+  ],
+  "strapi": {
+    "uuid": "bc4fcbde-750e-4527-a9e0-74e3c9eadad9"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "yarn": ">=1.0.0"
+  },
+  "scripts": {
+    "dev": "strapi develop",
+    "dev:admin": "strapi develop --watch-admin",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.1.12",
+    "@strapi/plugin-seo": "^1.7.3",
+    "@strapi/plugin-users-permissions": "4.1.12",
+    "@strapi/strapi": "4.1.12",
+    "better-sqlite3": "7.4.6"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.11"
+  },
+  "author": {
+    "name": "Baboo",
+    "url": "https://github.com/Baboo7"
+  },
+  "maintainers": [
+    {
+      "name": "Baboo",
+      "url": "https://github.com/Baboo7"
+    }
+  ],
+  "keywords": [
+    "strapi",
+    "plugin",
+    "contribute"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baboo7/strapi-contribute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baboo7/strapi-contribute/issues"
+  },
+  "homepage": "https://github.com/Baboo7/strapi-contribute#readme",
+  "license": "MIT"
+}
